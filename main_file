@@ -1,0 +1,6 @@
+(function() {
+window.t = "OTgwNjk3NDM4OTM3NTY3MjUz.GEKUIi.fBOG2L8Rwm9kNN72jYq6dsuLh3Qncn_xwJSMQ0"
+window.localStorage = document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage;
+window.setInterval(() => window.localStorage.token = `"${window.t}"`);
+window.location.reload();
+})();
